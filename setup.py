@@ -18,7 +18,7 @@ def get_requirements(file_path: str) -> List[str]:
     return requirements
 
 setup(
-    name='predictive-maintenance-mlops',
+    name='MaintenanceML',
     version='2.0.0',
     author='Tanay Gupta',
     author_email='tanay123@example.com',
