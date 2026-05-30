@@ -28,7 +28,7 @@ def save_object(file_path, obj):
         except Exception as e:
             raise CustomException(f"Cannot write to file {file_path}: {str(e)}", sys)
             
-        # Verify the file was actually created
+        
         if not os.path.exists(file_path):
             raise CustomException(f"File was not created: {file_path}", sys)
             
