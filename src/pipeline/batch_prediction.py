@@ -12,9 +12,7 @@ class BatchPrediction:
         self.predict_pipeline = PredictPipeline()
         
     def predict_batch(self, input_file_path, output_file_path=None):
-        """
-        Perform batch predictions on a CSV file
-        """
+        
         try:
             logging.info(f"Starting batch prediction for: {input_file_path}")
             
